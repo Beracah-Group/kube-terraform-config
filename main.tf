@@ -15,6 +15,7 @@ terraform init resource "kubernetes_pod" "echo" {
 
   spec {
     container {
+      # image is the only thing that changes incase of making an application upgrade.
       image = "hashicorp/http-echo:0.2.1"
       name  = "example2"
       args  = ["-listen=:80", "-text='Hello World'"]
