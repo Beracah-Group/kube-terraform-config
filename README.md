@@ -10,3 +10,12 @@ Why?
 Terraform uses the same declarative syntax to provision the lower underlying infrastructure (compute, networking, and storage) and scheduling (application) layer.
 Terraform provides full lifecycle management of Kubernetes resources including creation and deletion of pods, replication controllers, and services.
 Unlike the kubectl CLI, Terraform will wait for services to become ready before creating dependent resources. e.g Terraform will wait until a service is provisioned so it can add the service's IP to a load balancer.
+
+- The easiest way to configure the Kubernetes provider is to create a configuration file at ~/.kube/config. Terraform will automatically load that configuration during its run.
+- create main.tf 
+- Terraform init
+- schedule a simple application
+- provision a service
+- Terraform plan
+- Terraform apply
+- use curl to verify app is running
