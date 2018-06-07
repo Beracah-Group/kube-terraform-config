@@ -20,3 +20,5 @@ Unlike the kubectl CLI, Terraform will wait for services to become ready before 
 UPDATING APP 
 
 Over time the need to deploy a new version of your application comes up. The easiest way to perform an upgrade when you deploy a new version is to change image field in the config accordingly.
+terraform plan
+terraform apply
