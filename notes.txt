@@ -15,3 +15,6 @@ Unlike the kubectl CLI, Terraform will wait for services to become ready before 
 - provision a service
 - Terraform plan
 - Terraform apply
+- use curl to verify app is running
+
+UPDATING APP 
