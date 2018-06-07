@@ -13,3 +13,5 @@ main.tf
 Terraform init
 schedule a simple application
 provision a service
+Terraform plan
+Terraform apply
